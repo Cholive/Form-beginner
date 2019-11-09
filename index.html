@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <style>
+
+        body {
+        background-image: url("images/taj-kovalam.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+</style>
+</head>
+
+<body>
+    <hgroup>
+        <form id="myForm">
+            <h1>Welcome To The Magical Hotel
+            </h1>
+            <h2>Please submit your reservation here.</h2>
+            <div class="myLabel">
+                <div><label for="name">Name: </label>
+            </div>
+
+            <div><input id="name" type="text" pattern=".{20,}"/>
+             </div>
+
+            <div><label for="address">Address: </label>
+            </div>
+
+            <div><input id="address" type="text" />
+             </div>
+
+            <div><label for="telephone number">Telephone #:</label>
+            </div>
+
+            <div><input id="number" type="number" pattern="telephone"/>
+            </div>
+
+            <div><label for="email">E-mail: </label>
+            </div>
+
+            <div><input id="email" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/>
+            </div> 
+
+            <div><label for="date">Registration Date: </label>
+            </div>
+
+            <div><input id="date" type="date" />
+            </div>
+
+                <input type="submit" value="Submit" />
+                <input type="reset" value="Reset" />
+            </div>
+
+        </form>
+    </hgroup>    
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+
+hgroup{
+    background-color: aliceblue;
+    border-style: solid;
+    border-radius: 500px;
+    padding: 10px;
+    text-align: center;
+    opacity: 0.7;
+    filter: alpha(saturate=70);
+ }
+
+#myForm{
+ text-align: center;
+}
+.myLabel{
+    margin: auto;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    }
